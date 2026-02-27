@@ -14,7 +14,7 @@ const features = [
   {
     icon: <Droplets className="w-8 h-8 text-blue-500" />,
     title: "Acueducto Propio",
-    description: "Suministro de agua garantizado para tu parcela y cultivos."
+    description: "Suministro de agua garantizado para tu parcela."
   },
   {
     icon: <Sun className="w-8 h-8 text-yellow-500" />,
@@ -29,7 +29,7 @@ const features = [
   {
     icon: <CheckCircle2 className="w-8 h-8 text-emerald-600" />,
     title: "Uso Agroturístico",
-    description: "Ideal para vivienda campestre, cultivos o proyectos de turismo ecológico."
+    description: "Ideal para vivienda campestre, cultivos o proyectos de turismo ecológico/agropecuario."
   }
 ];
 

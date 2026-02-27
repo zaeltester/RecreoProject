@@ -7,14 +7,31 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
           {/* Brand */}
-          <div className="col-span-1 lg:col-span-2">
+          <div className="col-span-1">
             <h3 className="text-2xl font-bold text-white mb-4">Parcelación El Recreo</h3>
-            <p className="mb-6 max-w-md">
+            <p className="mb-6 text-sm">
               Un proyecto exclusivo en el corazón del Huila. Naturaleza, seguridad y desarrollo para tu familia.
             </p>
             <div className="flex items-center gap-2 text-white">
               <Building2 className="w-5 h-5 text-green-500" />
-              <span className="font-semibold">Ingeobras de Colombia SAS</span>
+              <span className="font-semibold text-sm">Ingeobras de Colombia SAS</span>
+            </div>
+          </div>
+
+          {/* Map */}
+          <div className="col-span-1 h-full min-h-[200px] rounded-xl overflow-hidden bg-stone-900 border border-stone-800 relative group">
+             <iframe 
+              title="Ubicación Palermo"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }}
+              src="https://maps.google.com/maps?q=2.8925,-75.4375&hl=es&z=14&output=embed"
+              allowFullScreen
+              loading="lazy"
+              className="w-full h-full"
+            />
+            <div className="absolute bottom-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded pointer-events-none">
+              Palermo, Huila
             </div>
           </div>
 
