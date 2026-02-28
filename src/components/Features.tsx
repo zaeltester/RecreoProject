@@ -28,8 +28,8 @@ const features = [
   },
   {
     icon: <CheckCircle2 className="w-8 h-8 text-emerald-600" />,
-    title: "Uso Agroturístico",
-    description: "Ideal para vivienda campestre, cultivos o proyectos de turismo ecológico/agropecuario."
+    title: "Uso del suelo",
+    description: "Ideal para vivienda campestre, producción agropecuaria y proyectos de turismo ecológico."
   }
 ];
 
