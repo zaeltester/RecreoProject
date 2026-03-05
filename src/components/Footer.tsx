@@ -12,11 +12,16 @@ export default function Footer() {
             <p className="mb-6 text-sm">
               Un proyecto exclusivo en el corazón del Huila. Naturaleza, seguridad y desarrollo para tu familia.
             </p>
-            <div className="flex-grow w-full min-h-[300px] flex items-center justify-center p-4">
+            <div className="flex-grow w-full min-h-[400px] flex flex-col items-center justify-center gap-8 p-4">
               <img 
                 src="/logo-ingeobras.png" 
                 alt="Ingeobras de Colombia SAS" 
-                className="w-full h-full object-contain max-h-[280px]"
+                className="w-full h-auto object-contain max-h-[200px]"
+              />
+              <img 
+                src="/logo-el-recreo.png" 
+                alt="Parcelación El Recreo" 
+                className="w-full h-auto object-contain max-h-[200px]"
               />
             </div>
           </div>
